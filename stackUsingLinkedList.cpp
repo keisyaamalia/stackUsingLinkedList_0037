@@ -42,4 +42,9 @@ int push(int value)
         top = top->next;
         cout << "Popped value: " << temp->data << endl;
     }
+//peel /top operation: retrive the value of the element witchout removing
+    void peek()
+    {
+        
+    }
 };
