@@ -57,6 +57,7 @@ int push(int value)
                 cout << current->data << " ";
                 current = current->next;
             }
-        }
+             cout << endl;
+        } //return the value of the top node
     }
 };
