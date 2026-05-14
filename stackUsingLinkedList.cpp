@@ -40,5 +40,6 @@ int push(int value)
         }
         Node *temp = top;
         top = top->next;
+        cout << "Popped value: " << temp->data << endl;
     }
 };
