@@ -38,5 +38,7 @@ int push(int value)
         {
             cout << "Stack is empty." << endl;
         }
+        Node *temp = top;
+        top = top->next;
     }
 };
