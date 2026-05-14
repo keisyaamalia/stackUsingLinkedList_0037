@@ -66,3 +66,7 @@ int push(int value)
         return top == NULL;//return true if the top pointer is null, indicating that the stack is empty 
     }
 };
+int main()
+{
+    
+};
