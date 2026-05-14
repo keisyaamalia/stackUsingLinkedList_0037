@@ -68,5 +68,9 @@ int push(int value)
 };
 int main()
 {
-    
+    Stack stack;
+
+    int choice = 0;
+    int value;
+
 };
