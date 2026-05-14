@@ -51,6 +51,12 @@ int push(int value)
         }
         else
         {
+             Node *current = top;
+            while (current != NULL)
+            {
+                cout << current->data << " ";
+                current = current->next;
+            }
         }
     }
 };
