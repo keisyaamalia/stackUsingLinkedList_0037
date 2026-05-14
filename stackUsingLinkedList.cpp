@@ -45,6 +45,12 @@ int push(int value)
 //peel /top operation: retrive the value of the element witchout removing
     void peek()
     {
-        
+        if (top == NULL)
+        {
+            cout << "List is Empty." << endl;
+        }
+        else
+        {
+        }
     }
 };
