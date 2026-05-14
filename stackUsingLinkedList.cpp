@@ -31,4 +31,9 @@ int push(int value)
         cout << "push value: " << value << endl;
         return value;
     }
+    //pop operation: remove the topmost element from the stack
+    void pop()
+    {
+       
+    }
 };
